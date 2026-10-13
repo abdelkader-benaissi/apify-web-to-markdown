@@ -1,0 +1,1 @@
+{"actorOutputSchemaVersion":1,"description":"Web pages converted to clean Markdown, one row per URL.","properties":{"dataset":{"description":"Dataset with one row per converted page: URL, title, metadata and full Markdown.","template":"{{links.apiDefaultDatasetUrl}}/items","title":"Pages","type":"string"}},"title":"Web to Markdown output"}

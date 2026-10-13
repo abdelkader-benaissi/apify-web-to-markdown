@@ -1,0 +1,8 @@
+# Apify SDK (installed explicitly: the base image does not guarantee it) +
+# HTTP fetching and HTML -> Markdown conversion stack.
+apify
+httpx
+readability-lxml
+markdownify
+beautifulsoup4
+lxml
