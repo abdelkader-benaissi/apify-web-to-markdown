@@ -1,0 +1,99 @@
+{
+ "data": {
+  "id": "IRAJEB9NOAik6toOe",
+  "userId": "n6Tf3kkrQIsaE9Y6P",
+  "name": "apify-web-to-markdown",
+  "username": "abdou_009",
+  "isPublic": true,
+  "createdAt": "2026-10-13T13:40:22.153Z",
+  "modifiedAt": "2026-10-13T13:59:30.739Z",
+  "taggedBuilds": {
+   "latest": {
+    "buildId": "yIrFRf8YftpXIfu1f",
+    "finishedAt": "2026-10-13T13:49:03.224Z",
+    "buildNumberInt": 2,
+    "buildNumber": "0.0.2"
+   }
+  },
+  "stats": {
+   "totalBuilds": 2,
+   "totalRuns": 9,
+   "totalUsers": 2,
+   "totalUsers7Days": 1,
+   "totalUsers30Days": 1,
+   "totalUsers90Days": 1,
+   "lastRunStartedAt": "2026-10-20T07:39:23.110Z",
+   "actorReviewCount": 0,
+   "actorReviewRating": 0,
+   "bookmarkCount": 0,
+   "publicActorRunStats30Days": {
+    "ABORTED": 0,
+    "FAILED": 0,
+    "SUCCEEDED": 7,
+    "TIMED-OUT": 0,
+    "TOTAL": 7
+   }
+  },
+  "versions": [
+   {
+    "versionNumber": "0.0",
+    "sourceType": "GIT_REPO",
+    "buildTag": "latest"
+   }
+  ],
+  "defaultRunOptions": {
+   "build": "latest",
+   "timeoutSecs": 300,
+   "memoryMbytes": 1024
+  },
+  "exampleRunInput": {
+   "body": "{ \"helloWorld\": 123 }",
+   "contentType": "application/json; charset=utf-8"
+  },
+  "isDeprecated": false,
+  "title": "Apify Web To Markdown",
+  "pricingInfos": [
+   {
+    "minimalMaxTotalChargeUsd": null,
+    "isPPEPlatformUsagePaidByUser": true,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": false,
+    "pricingPerEvent": {
+     "actorChargeEvents": {
+      "apify-actor-start": {
+       "eventTitle": "Actor Start",
+       "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+       "isOneTimeEvent": true,
+       "eventPriceUsd": 5e-05
+      },
+      "apify-default-dataset-item": {
+       "eventTitle": "result",
+       "eventDescription": "Single result in the default dataset.",
+       "isOneTimeEvent": false,
+       "eventPriceUsd": 1e-05
+      },
+      "page-converted": {
+       "eventTitle": "Page converted",
+       "eventDescription": "Charged for each page converted to Markdown.",
+       "isOneTimeEvent": false,
+       "eventPriceUsd": 0.003,
+       "isPrimaryEvent": true
+      }
+     }
+    },
+    "startedAt": "2026-10-13T13:57:37.180Z",
+    "createdAt": "2026-10-13T13:57:37.831Z",
+    "apifyMarginPercentage": 0.2
+   }
+  ],
+  "notice": "NONE",
+  "isCritical": false,
+  "isGeneric": false,
+  "hasNoDataset": false,
+  "isSourceCodeHidden": true,
+  "standbyUrl": null,
+  "actorPermissionLevel": "LIMITED_PERMISSIONS",
+  "readmeSummary": "## Web to Markdown\n\nA fast, HTTP-only extractor that converts web pages into compact, LLM-ready Markdown by extracting main article content and page metadata without running a headless browser. The Actor performs readability-first content extraction with fallbacks to article/main/body, strips navigation, scripts, styles, footers, asides and forms, absolutizes links, and truncates Markdown to a bounded length (default ~20,000 characters). It also fetches page-level metadata (title, meta/OG description, author, published time), reports final URL after redirects and HTTP status, provides a per-page character count, and returns per-page success/failure information. Fetch behavior is HTTP-only with a browser-like User-Agent, redirect following and a request timeout; hosts that resolve to private, loopback or link-local IPs are blocked as an SSRF protection. Designed for batch conversion and low-latency calls suitable for integration into automated agent flows and RAG pipelines.\n\n## Use cases\n\n- Produce compact, clean Markdown versions of web pages for AI agents and conversational agents.\n- Prepare page text for retrieval-augmented generation (RAG) workflows and vectorization.\n- Extract article-centric content and metadata (title, description, author, publish date) for indexing and search.\n- Batch-convert many URLs with per-page success/failure reporting and bounded output size.\n- Rapid, browserless page conversion to embed page text into prompts or downstream NLP pipelines.",
+  "deploymentKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNiiYK3lG1g+YPQgyGJKRzGIIevjvMXHJo1bLjDhvfSdYdgyVD4MebbT9nZBI3ekm72No6d+9xAIgbC2EVLO6rzUdSmY5HkuHCrFNm+f5nm+cIVnmdWmxKz1/aMOFCzmelFUWV+taNMBIpVjFG4jzZ7sOSW+qjgsbxtqdfDkqMp31PEPOdCcKBntHfNhqhi6AkXwPnv9hL/IhE4QhWCLwdVTeih1hCagqK5S5b2g4waQat8pC4eso5PKqFLMabOOgIVJNzJgDJOATOkJD6Yq5swgCh8jD0GHeOz6gEAqUsxOVcsvCvQDjC1NiMrOplmhpDxa2tqxnIj2mSIJR1L/PJ \n"
+ }
+}

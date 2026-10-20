@@ -1,0 +1,24 @@
+[
+ {
+  "runId": "TU1xfCYEe9ixgPRPC",
+  "startedAt": "2026-10-20T07:39:23Z",
+  "status": "SUCCEEDED",
+  "userId": "n6Tf3kkrQIsaE9Y6P",
+  "input": {
+   "includeImages": true,
+   "urls": "https://example.com",
+   "maxChars": 20000
+  }
+ },
+ {
+  "runId": "wg5wK9J8XAXtXkXqs",
+  "startedAt": "2026-10-13T13:50:17Z",
+  "status": "SUCCEEDED",
+  "userId": "n6Tf3kkrQIsaE9Y6P",
+  "input": {
+   "includeImages": true,
+   "urls": "https://example.com",
+   "maxChars": 20000
+  }
+ }
+]
